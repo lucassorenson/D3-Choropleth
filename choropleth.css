@@ -1,0 +1,51 @@
+.county{
+    fill: #888;
+    stroke: #333;
+  }
+
+#svg{
+    background-color: #ddd;
+  }
+
+
+.state{
+    stroke-linejoin: round;
+    fill: none;
+    stroke: #000
+  }
+
+#title{
+    font-size: 25px;
+    text-decoration: underline;
+    text-anchor: middle;
+  }
+
+#description{
+    font-size: 15px;
+    text-anchor: middle;
+}
+
+#tooltip {
+    position: absolute;
+    width: 160px;
+    height: 80px;  
+    text-align: center;             
+    font: 15px;        
+    border: 1px;        
+    border-radius: 2px;   
+    padding: 10px;         
+    pointer-events: none; 
+    background-color: lightblue;           
+  }
+
+.legendRect{
+  width: 80px;
+  height: 30px;
+  position: absolute;
+}
+
+#legendBackground{
+  fill: lightcoral;
+  width: 370px;
+  height: 80px;
+}
