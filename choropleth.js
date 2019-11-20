@@ -12,7 +12,7 @@ function getData(mapUrl, educationUrl) {
 
 function makeChoropleth(mapData, educationData) {
 
-    const [svg, svgVals] = makeSvg(1000, 650);
+    const [svg, svgVals] = makeSvg(1000, 630);
     const tooltip = makeTooltip();
     const path = d3.geoPath();
 
